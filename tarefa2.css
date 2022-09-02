@@ -13,11 +13,39 @@ body {
 
 }
 
-.navegacao {
+.cabecalho-logo {
     display: flex;
-    justify-content: space-evenly;
+    padding: 0px 50px 0px 0px;
+    width: 10%;
+}
+
+.navegacao-div {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+.navegacao-link {
+    padding: 0px 15px;
+}
+
+a:visited {
+    color:aliceblue;
+}
+
+a:link {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #708090;
+    text-decoration: none;
+}
+
+
 
 h1 {
     font-size: 50px;
