@@ -81,6 +81,24 @@ details > p {
     margin: 10px 10px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .ft-logo {
     width: 10%;
+}
+
+.voltar-topo{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.seta {
+    font-size: 1.2em;
+
 }
