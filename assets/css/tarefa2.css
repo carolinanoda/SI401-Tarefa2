@@ -45,7 +45,7 @@ a:link {
 }
 
 a:hover {
-    color: #708090;
+    color: #07ff07;
     text-decoration: none;
 }
 
@@ -57,6 +57,14 @@ a:hover {
     border-radius: 7px;
 }
 
+.secao:hover {
+    border-color: #07ff07;
+}
+
+.icones {
+    width: 3%;
+}
+
 h2 {
     text-transform: uppercase;
 }
@@ -66,11 +74,15 @@ summary {
     border: 2px solid #010101;
     border-radius: 5px;
     padding: 10px;
+    cursor: pointer;
+}
+
+summary:hover {
+    color: #07ff07;
 }
 
 details > summary * {
     display: inline;
-    cursor: pointer;
 }
 
 details > p {
