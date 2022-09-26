@@ -6,7 +6,7 @@ body {
 
 
 .cabecalho {
-    padding: 40px 40px 60px 40px;
+    padding: 2.5rem 2.5rem 3.75rem 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,12 +15,16 @@ body {
 
 .cabecalho-logo {
     display: flex;
-    padding: 0px 40px 0px 0px;
+    padding: 0 2.5rem 0 0;
     width: 10%;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
+}
+
+#voltar-sumario {
+    text-decoration: none;
 }
 
 .navegacao-div {
@@ -32,7 +36,7 @@ h1 {
 }
 
 .navegacao-link {
-    padding: 0px 15px;
+    padding: 0 0.938rem;
 }
 
 a:visited {
@@ -50,23 +54,28 @@ a:hover {
 }
 
 .secao {
-    margin: 100px 200px;
-    padding: 20px 20px;
+    margin: 6.25em 12.5em;
+    padding: 1.25em 1.25em;
     text-align: justify;
-    border: 2px solid aliceblue;
-    border-radius: 7px;
+    border: 0.125em solid aliceblue;
+    border-radius: 0.438em;
 }
 
 .secao:hover {
     border-color: #07ff07;
 }
 
-.icones {
-    width: 3%;
+.secao h2 {
+    text-transform: uppercase;
+    text-align: justify;
 }
 
-h2 {
-    text-transform: uppercase;
+.secao p {
+    text-align: justify;
+}
+
+.icones {
+    width: 3%;
 }
 
 summary {
@@ -112,5 +121,4 @@ footer {
 
 .seta {
     font-size: 1.2em;
-
 }

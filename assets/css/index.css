@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    color:aliceblue;
+    font-family: "MinecraftiaRegular";
+}
+
+
+.cabecalho {
+    padding: 2.5rem 2.5rem 3.75rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cabecalho-logo {
+    display: flex;
+    padding: 0 2.5rem 0 0;
+    width: 10%;
+}
+
+h1 {
+    font-size: 3.125rem;
+}
+
+.line-1{
+    color: #07ff07;
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.line-1 h2 {
+    border-right: 0.125rem solid rgba(255,255,255,.75);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+}
+
+.anim-typewriter h2 {
+    animation: blinkTextCursor .75s steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 55em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+a:visited {
+    color:aliceblue;
+}
+
+a:link {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #07ff07;
+    text-decoration: none;
+}
+
+.secao {
+    margin: 1.25em 12.5em 6.25em;
+    padding: 1.25em 1.25em;
+    text-align: justify;
+    border: 0.125em solid aliceblue;
+    border-radius: 0.438em;
+}
+
+.secao:hover {
+    border-color: #07ff07;
+}
+
+.secao h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.secao p {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.ft-logo {
+    width: 10%;
+}
+
+.voltar-topo{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.seta {
+    font-size: 1.2em;
+}
